@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    height: 100vh;
+}
+.form-container{
+    /* border: 1px solid black; */
+    width: 30%;
+    /* background-color: peru; */
+    box-shadow: 10px 20px 10px black;
+}
+.resume-container{
+    /* border: 1px solid black; */
+    width: 70%;
+    /* background-color: aqua; */
+    background-color: rgb(221, 219, 219);
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+}
+.submit-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(24, 24, 220);
+    color: wheat;
+    border-radius: 20px;
+    border: none;
+}
+.resume{
+    width: 70%;
+    height: 90%;
+    background: white;
+    margin: 40px auto;
+    display: flex;
+}
+.left-section{
+    width: 30%;
+    background-color: blue;
+    color: white;
+}
+.right-section{
+    width: 100%;
+    padding: 20px;
+
+}
+
+.image-container img{
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 10px 20px;
+
+}
+/* .image-container{
+
+} */
+.name{
+    margin-left: 10px;
+}
+.profile-container, .skills-container{
+    margin-left: 10px;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.work-ex-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.work-ex-heading, .education{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
